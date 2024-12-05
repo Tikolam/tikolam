@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TIKOLAM Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+
+   
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+  
+</head>
+<body>
+
+    <nav class="nav_container">
+        <div class="logo"><a href="#hero">TIKOLAM</a></div>
+        <!-- Toggle Button -->
+        <button class="toggle_btn" id="menuToggle">
+            <span class="menu-icon"></span>
+        </button>
+        <!-- Navbar Links -->
+        <div class="navbar_links" id="menu">
+            <ul>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    
+    
+
+    <section class="hero" id="hero">
+        <div class="gradient">
+           
+              
+            <div class="container"> 
+               <div id="sale" class="sale animate__animated animate__heartBeat">Get 50% Off</div>
+               <div id="text" class="text animate__animated animate__heartBeat">Festive <br>Web Dev Deal!</div>
+            </div>
+    
+            <h2 class="animate__animated animate__zoomInDown">Tikolam Tech</h2>
+            <h3>Creating Responsive Websites  for Modern Businesses</h3>
+           <strong class="s-hero" > <p>Specializing in HTML, CSS,<br> Landing Pages, Survey Forms, and Website Maintenance. <br></strong>
+            <button class="btn" onclick="window.location.href='second.html';"> <span id="s-hero">Get Started Today</span></button>
+              </p>
+  
+        
+        </div>     
+    </section>
+
+
+           <section style="padding:50px 30px;" id="service" class="service-section" >
+            
+            <h1>Services</h1>
+            <p>At Tikolam, we offer professional web solutions designed for success.</p>
+            <p><strong>"Our Expertise at Your Fingertips"</strong></p>
+          
+            <div class="service-grid">
+              <div class="service-card">
+                <img src="responsive.webp" alt="Responsive Websites">
+                <div class="card-label">
+                  <strong>Responsive Websites</strong>
+                  <p>We create websites that look great on any device, ensuring your online presence is always professional.</p>
+                </div>
+              </div>
+              <div class="service-card">
+                <img src="landing.webp" alt="Unique Landing Pages">
+                <div class="card-label">
+                  <strong>Unique Landing Pages</strong>
+                  <p>Our landing pages are custom-built to capture attention and convert visitors into customers.</p>
+                </div>
+              </div>
+              <div class="service-card">
+                <img src="survey.jpg" alt="Online Survey Forms">
+                <div class="card-label">
+                  <strong>Online Survey Forms</strong>
+                  <p>Engage your audience with tailored survey forms designed for seamless data collection.</p>
+                </div>
+              </div>
+              <div class="service-card">
+                <img src="maintanance.jpg" alt="Website Maintenance">
+                <div class="card-label">
+                  <strong>Website Maintenance</strong>
+                  <p>Keep your website running smoothly with our dedicated maintenance services, available 24/7.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+    <section id="about" style=" padding: 50px 30px;">
+        <h1>About</h1>
+        <p>
+          <div class="about">
+            
+             Tikolam Ltd is a tech-forward company dedicated to building responsive <br>
+             websites and digital solutions that empower businesses. <br>
+              We specialize in HTML and CSS development, creating beautiful,<br> 
+              functional designs that engage users and drive results. <br>
+             </div>
+              <strong class="mission"> Mission Statement:</strong> <br>
+             To make digital experiences accessible, professional, and tailored to every business’s unique goals. <br>
+             
+             <strong class="vision">Vision Statement:</strong> <br>
+             To be a leading force in responsive website development and online innovation.<br>
+             
+             </p>
+             <div class="about-card">
+                <img src="vela.jpg" alt="founder">
+                <div class="card-label">
+                    <strong> TIKOLAM Founder: Mr V.G. Mbatha.</strong>
+                </div>
+              </div>
+             
+    </section>
+
+    <section id="contacts" style="height: 100vh; padding: 50px 30px;">
+        <h1>Contact</h1>
+        <p>We’d love to hear from you! Reach out to us today.<br>
+          <span> "Let’s Work Together!"</span> 
+            
+        <div class="details">
+
+        
+       <p>
+            <strong>Location:</strong> KZN, South Africa </p>
+
+            <div class="email"><i class="fa-regular fa-envelope"></i>
+              <label for="email">tikolam.pty@gmail.com</label>
+            </div>
+          <div class="tiktok"><a href="https://www.tiktok.com/@tikolam.ptyltd?_t=8rxP7NAB4ER&_r=1"><i class="fa-brands fa-tiktok"></a></i> 
+            <label for="tiktok">@Tikolam.ptyLtd</label>
+          </div>
+
+          
+
+            <div class="instagram"  ><a href="https://www.instagram.com/tikolam_dm/profilecard/?igsh=b28zdWswaW96eHV5">
+            <i class="fa-brands fa-instagram"></a></i>
+            <label for="instagram">@tikolam_dm</label>
+          </div>
+     
+            
+
+
+
+        <button class="btn" onclick="window.location.href='second.html';">Contact Us</button>
+    </section>
+
+
+    <footer class="footer">
+        © 2024 <a href="#">Tikolam Pty Ltd</a>. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

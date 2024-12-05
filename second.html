@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TIKOLAM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="second" id="sec">
+    <nav class="nav_container">
+      <div class="logo"><a href="index.html"><i class="fa-solid fa-house"></i> TIKOLAM</a></div>
+        
+        <div class="navbar_links">
+            <ul id="navlink">
+                <li>Contact Us</li>
+            </ul>
+        </div>
+    </nav>
+
+
+      <form id="form" class="blur"action="https://formspree.io/f/mnnqgodl" method="POST">
+          <ul class="formz">
+              <label>
+                  Your Name:
+                  <input type="text" name="username" placeholder="Jack Jackson" required>
+              </label>
+              <label>
+                Your Company:
+                <input type="text" name="company" placeholder="Company/Individual" required>
+            </label>
+
+
+              <label>
+                  Your Email:
+                  <input type="email" name="email" placeholder="Email@gmail.com" required>
+              </label>
+              <label>
+                  Your Message:
+                  <textarea name="message" placeholder="Inquire regarding web developing deals..." required></textarea>
+              </label>
+             
+              <button class="btn" type="submit">Submit</button>
+          </ul>
+      </form>
+
+      
+
+    <script src="script.js"></script>
+</body>
+</html>
